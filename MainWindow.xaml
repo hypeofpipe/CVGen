@@ -1,0 +1,14 @@
+﻿<Window x:Class="CVGen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CVGen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="CVGen" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="317,64,271,297" Height="58" Width="204" FontSize="36"/>
+        <Button x:Name="GenerateButton" Content="Generate" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="317,201,0,0" Height="39" Click="GenerateButton_Click"/>
+
+    </Grid>
+</Window>
